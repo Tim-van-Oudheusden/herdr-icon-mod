@@ -33,16 +33,11 @@ image file; paths may be absolute or start with `~`:
 
 ```json
 {
-  "website": "/home/tim/Git/website/public/favicon.svg",
-  "MinimalUI": "/home/tim/Git/MinimalUI/docs/brand/icon/icon.svg",
-  "Dailies": "/home/tim/Git/Dailies/data/icons/hicolor/scalable/apps/io.github.tim_van_oudheusden.Dailies.svg",
-  "pindu-launcher": "/home/tim/Git/pindu-launcher/data/icons/io.github.tim_van_oudheusden.pindu-launcher.svg",
-  "pindu-os": "/home/tim/Git/pindu-os/docs/brand/icon.png"
+  "work": "/path/to/icons/work.svg",
+  "my-project": "~/Git/my-project/public/favicon.svg",
+  "sp1234567890abcdef": "~/Pictures/space.png"
 }
 ```
-
-A space id also works as a key, e.g.
-`"spa8cf7b56b64a52351ee6167419066a4a": "~/Git/website/public/icon-192.png"`.
 
 A key matches a space's **id**, its **name**, or the **folder its first terminal
 is in** (the repository folder). Name matching covers spaces with the same name
